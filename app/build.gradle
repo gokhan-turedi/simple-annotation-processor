@@ -1,0 +1,8 @@
+sourceSets {
+    main.java.srcDirs += [ 'build/classes/main' ]
+}
+
+dependencies {
+    compile project (':annotations')
+    compile project (':processor')
+}
